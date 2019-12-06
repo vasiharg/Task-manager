@@ -1,0 +1,34 @@
+body {
+    background-image: linear-gradient(rgba(0, 129, 45, 0.5), rgba(248, 8, 8, 0.4));
+}
+header, .width{
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    background-image: url(task\ background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+}
+.width {
+    height: 100vh;
+    width: 50vw;
+}
+.navigation{
+    padding-top: 10%;
+}
+#log-div{
+    padding-top: 15%;
+    height: 90vh;
+}
+#reg-div{
+    padding-top: 15%;
+    height: 100vh;
+}
+.alert{
+    color: red;
+}
+#login-div-btn, #reg-div-btn{
+    margin-top: 5%;
+} 
